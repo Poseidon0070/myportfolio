@@ -12,6 +12,8 @@ import redux from './11redux.svg'
 import cpp from './12cpp.svg'
 import github from './13github.svg'
 import python from './14python.svg'
+import typescript from './15typescript.svg'
+import docker from './16docker.svg'
 
-export const skills = {html, css, javascript, bootstrap, reactjs, materialui, nodejs, express, mongodb, mysql, redux, cpp, github, python}
+export const skills = {html, css, javascript, bootstrap, reactjs, materialui, nodejs, express, mongodb, mysql, redux, cpp, github, python, typescript, docker}
  

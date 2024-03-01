@@ -18,7 +18,7 @@ function Home() {
                             <div className="d-flex align-items-center mt-5">
                                 <div className='resume'>
                                 <button data-aos="fade-right" data-aos-delay="600" onClick={() => window.open(require('../assets/images/Shikhar_Resume.pdf'), '_blank')} className="btn resume btn-brand btn-lg btn-outline-dark me-4">
-                                    <a href={require('../assets/images/Resume.pdf')} style={{ textDecoration: "none",color:"#491d1d" }} target='_blank' rel="noreferrer">Resume</a>
+                                    <a href={require('../assets/images/Shikhar_Resume.pdf')} style={{ textDecoration: "none",color:"#491d1d" }} target='_blank' rel="noreferrer">Resume</a>
                                 </button>
                                 </div>
                                 <a data-aos="fade-left" data-aos-delay="600" href="!#" className="link-custom"><span className="h5" style={{ fontFamily: "monospace" }}>Call:(+91) 9179104891</span></a>
@@ -29,6 +29,6 @@ function Home() {
             </section>
         </div>
     )
-}
+} 
 
 export default Home

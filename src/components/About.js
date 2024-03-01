@@ -9,8 +9,8 @@ function About() {
                 <div className="container">
 
                     <div className="row pb-4" data-aos="fade-up">
-                    <h1 className="display-4 fw-bold mb-5" data-aos="fade-down"><span className="text-brand">
-                        My Education and Experience</span></h1>
+                        <h1 className="display-4 fw-bold mb-5" data-aos="fade-down"><span className="text-brand">
+                            My Education and Experience</span></h1>
                     </div>
 
                     <div className="row gy-5">
@@ -23,8 +23,12 @@ function About() {
                                     <div className="bg-base p-4 rounded-4 shadow-effect">
                                         <h4>International Institute of Information Technology, Naya Raipur
                                         </h4>
-                                        <p className="text-brand mb-2">Bachelor of Technology in Computer Science • 2023 - Present</p>
-                                        <p className="mb-0">Currently pursuing my B.tech in Computer Science at IIIT, Naya Raipur with a cumulative CGPA of 8.26.</p>
+                                        <div className='d-flex justify-content-between'>
+                                        <p className="text-brand mb-2">B.Tech Computer Science</p>
+                                        <p className="text-brand mb-2">2023 - Present</p>
+
+                                        </div>
+                                        <p className="mb-0">Currently pursuing my B.tech in Computer Science at IIIT, Naya Raipur with a cumulative CGPA of <b>8.26.</b></p>
                                     </div>
                                 </div>
 
@@ -32,8 +36,12 @@ function About() {
                                     <div className="bg-base p-4 rounded-4 shadow-effect">
                                         <h4>Nirmal Higher Secondary School, Jagdalpur(C.G)
                                         </h4>
-                                        <p className="text-brand mb-2">CBSE className 12th • 2019-20</p>
-                                        <p className="mb-0">Completed my senior secondary education from N.V.H.S achieving 91.6% (Ranked 3rd in my batch).</p>
+                                        <div className='d-flex justify-content-between'>
+                                        <p className="text-brand mb-2">CBSE 12th</p>
+                                        <p className="text-brand mb-2">2019-20</p>
+
+                                        </div>
+                                        <p className="mb-0">Completed my senior secondary education from N.V.H.S achieving <b>91.6%</b> (Ranked 3rd in my batch).</p>
                                     </div>
                                 </div>
 
@@ -41,8 +49,12 @@ function About() {
                                     <div className="bg-base p-4 rounded-4 shadow-effect">
                                         <h4>Nirmal Higher Secondary School, Jagdalpur(C.G)
                                         </h4>
-                                        <p className="text-brand mb-2">CBSE className 10th • 2017-18</p>
-                                        <p className="mb-0">Completed my secondary level education from N.V.H.S achieving 94.7% (Ranked 1st in my batch).</p>
+                                        <div className='d-flex justify-content-between'>
+                                        <p className="text-brand mb-2">CBSE 10th</p>
+                                        <p className="text-brand mb-2">2017-18</p>
+
+                                        </div>
+                                        <p className="mb-0">Completed my secondary level education from N.V.H.S achieving <b>94.7% </b>(Ranked 1st in my batch).</p>
                                     </div>
                                 </div>
 
@@ -57,18 +69,24 @@ function About() {
 
                                 <div className="col-12" data-aos="fade-left" data-aos-delay="300">
                                     <div className="bg-base p-4 rounded-4 shadow-effect">
-                                        <h4>Samsung PRISM R&D Intern</h4>
-                                        <p className="text-brand mb-2">July 2023 - present</p>
+                                        <h4>Developer Intern</h4>
+                                        <div className='d-flex justify-content-between'>
+                                            <p className='text-brand'>Samsung PRISM</p>
+                                            <p className="text-brand">July 2023 - present</p>
+                                        </div>
                                         <p className="mb-0">Project aims to develop a Named Entity Recognition (NER) class Nameifier,
                                             where the goal is to identify and class Nameify specific named entities in text, such as persons, places, organizations, etc.
-                                            </p>
+                                        </p>
                                     </div>
                                 </div>
 
                                 <div className="col-12" data-aos="fade-left" data-aos-delay="500">
                                     <div className="bg-base p-4 rounded-4 shadow-effect">
-                                        <h4>Imocha Problem Setter Intern</h4>
-                                        <p className="text-brand mb-2">May 2023 - present</p>
+                                        <h4>Problem Setter Intern</h4>
+                                        <div className='d-flex justify-content-between'>
+                                            <p className='text-brand'>Interview Mocha</p>
+                                            <p className="text-brand">May 2023 - July 2023</p>
+                                        </div>
                                         <p className="mb-0">Working as a Data Structure and Algorithm Problem-setter invloved in creating new problems, testcases, documentation and reviewing.
                                         </p>
                                     </div>
@@ -76,11 +94,15 @@ function About() {
 
                                 <div className="col-12" data-aos="fade-left" data-aos-delay="700">
                                     <div className="bg-base p-4 rounded-4 shadow-effect">
-                                        <h4>Forage Virtual Program (G.M.S)</h4>
-                                        <p className="text-brand mb-2">June 2023</p>
-                                        <p className="mb-0">Conducted an in-depth analysis of password protection mechanisms, with a focus on cracking passwords using
-                                            Hashcat and assessing their security.
-                                            Successfully cracked a range of passwords using Hashcat and identified the type of hashing algorithm used to protect passwords.</p>
+                                        <h4>Postman API Expert</h4>
+                                        <div className='d-flex justify-content-between'>
+                                            <p className='text-brand'>Postman</p>
+                                            <p className="text-brand">Feb 2024</p>
+                                        </div>
+                                        <p className="mb-0"> Gained hands-on experience in working with APIs and essential skills for modern software development.
+                                            Utilized Postman to interact with APIs and efficiently perform HTTP requests.
+                                            Mastered API key authorization mechanisms, understanding and implementing secure access protocols.
+                                        </p>
                                     </div>
                                 </div>
 
