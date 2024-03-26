@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.df068b96.css",
-    "main.js": "/myportfolio/static/js/main.ef0bd0b3.js",
+    "main.js": "/myportfolio/static/js/main.8bc263d7.js",
+    "static/media/Mernbot.png": "/myportfolio/static/media/Mernbot.6e5635648302a2a117ba.png",
     "static/media/ReactTube.png": "/myportfolio/static/media/ReactTube.7a9ccb1024a4eb0b7fc9.png",
     "static/media/FoodApp.png": "/myportfolio/static/media/FoodApp.14d4edb8ffcb54733e68.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/myportfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -35,10 +36,10 @@
     "static/media/6materialui.svg": "/myportfolio/static/media/6materialui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
     "static/media/3javascript.svg": "/myportfolio/static/media/3javascript.4e191ced82f7d9fb6e572e1600298643.svg",
     "main.df068b96.css.map": "/myportfolio/static/css/main.df068b96.css.map",
-    "main.ef0bd0b3.js.map": "/myportfolio/static/js/main.ef0bd0b3.js.map"
+    "main.8bc263d7.js.map": "/myportfolio/static/js/main.8bc263d7.js.map"
   },
   "entrypoints": [
     "static/css/main.df068b96.css",
-    "static/js/main.ef0bd0b3.js"
+    "static/js/main.8bc263d7.js"
   ]
 }
