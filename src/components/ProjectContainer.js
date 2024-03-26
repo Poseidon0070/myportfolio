@@ -5,7 +5,7 @@ function ProjectContainer({ img, children, right, link }) {
         <div className="col-md-6" data-aos={`${right ? 'fade-right' : 'fade-left'}`}>
             <div className="card-custom rounded-4 bg-base shadow-effect">
                 <div className="card-custom-image rounded-4 p-2">
-                    <img className="rounded-4" src={img} alt="" style={{ height: "400px" }} />
+                    <img className="rounded-4" src={img} alt="" style={{ height: "450px", border:"3px solid grey" }} />
                 </div>
                 <div className="card-custom-content p-4">
                     {children}

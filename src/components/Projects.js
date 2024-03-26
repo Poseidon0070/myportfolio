@@ -6,6 +6,7 @@ import foodApp from '../assets/images/projects/FoodApp.png'
 import expenceTracker from '../assets/images/projects/ExpenseTracker.png'
 import shooterGame from '../assets/images/projects/2DshooterGame.png'
 import taskManagementApp from '../assets/images/projects/TaskManagementApp.png'
+import mernbot from '../assets/images/projects/Mernbot.png'
 
 //"./assets/images/project-1.jpg"
 
@@ -27,6 +28,13 @@ function Projects() {
 
                     <div className="row gy-4">
 
+                        <ProjectContainer
+                            img={mernbot}
+                            link={"https://master--mern-bot.netlify.app/"}>
+                            <h4>Phind Clone</h4>
+                            <p>Ai assistant application similar to chat-gpt integerated with image generator. Front-end : React, Backend : Node, Express and MongoDB, Auth : JWT and cookie sessions   .
+                            </p>
+                        </ProjectContainer>
                         <ProjectContainer
                             img={reactTube}
                             right={true}
@@ -66,6 +74,7 @@ function Projects() {
                         </ProjectContainer>
                         <ProjectContainer 
                         img={taskManagementApp} 
+                        right={true}
                         link={`https://65b7d4c6aa96151eb7175335--aesthetic-buttercream-603993.netlify.app/`}>
                             <h4>Task Management App</h4>
                             <p>
