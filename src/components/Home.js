@@ -17,7 +17,7 @@ function Home() {
                                 development team to contribute my expertise and help to create innovative and effective solutions for real-world problems.</p>
                             <div className="d-flex align-items-center mt-5">
                                 <div className='resume'>
-                                <button data-aos="fade-right" data-aos-delay="600" onClick={() => window.open(require('../assets/images/Shikhar_Resume.pdf'), '_blank')} className="btn resume btn-brand btn-lg btn-outline-dark me-4">
+                                <button data-aos="fade-right" data-aos-delay="600" onClick={() => window.open(require('../assets/images/Shikhar_Resume(m).pdf'), '_blank')} className="btn resume btn-brand btn-lg btn-outline-dark me-4">
                                     <a href={require('../assets/images/Shikhar_Resume.pdf')} style={{ textDecoration: "none",color:"#491d1d" }} target='_blank' rel="noreferrer">Resume</a>
                                 </button>
                                 </div>

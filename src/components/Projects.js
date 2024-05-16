@@ -38,7 +38,7 @@ function Projects() {
                         <ProjectContainer
                             img={reactTube}
                             right={true}
-                            link={"https://clone-df0d7.web.app"}>
+                            link={"https://react-tube-0070.netlify.app/"}>
                             <h4>Video player application - ReactTube</h4>
                             <p>Developed a fully responsive YouTube clone website using React and Material-UI
                                 Integrated the RAPIDAPI to fetch and display dynamic content, including video details, channel information, and search results.
