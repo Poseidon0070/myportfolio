@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.df068b96.css",
-    "main.js": "/myportfolio/static/js/main.d25b7920.js",
+    "main.js": "/myportfolio/static/js/main.60d3e26a.js",
     "static/media/Mernbot.png": "/myportfolio/static/media/Mernbot.6e5635648302a2a117ba.png",
     "static/media/ReactTube.png": "/myportfolio/static/media/ReactTube.7a9ccb1024a4eb0b7fc9.png",
-    "static/media/FoodApp.png": "/myportfolio/static/media/FoodApp.14d4edb8ffcb54733e68.png",
+    "static/media/algoSketch.png": "/myportfolio/static/media/algoSketch.a611334999abe743d2f5.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/myportfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/profile-pic1.png": "/myportfolio/static/media/profile-pic1.c2cb8bfd366e26833315.png",
     "static/media/2DshooterGame.png": "/myportfolio/static/media/2DshooterGame.ee31183e7bcad77ec158.png",
@@ -37,10 +37,10 @@
     "static/media/6materialui.svg": "/myportfolio/static/media/6materialui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
     "static/media/3javascript.svg": "/myportfolio/static/media/3javascript.4e191ced82f7d9fb6e572e1600298643.svg",
     "main.df068b96.css.map": "/myportfolio/static/css/main.df068b96.css.map",
-    "main.d25b7920.js.map": "/myportfolio/static/js/main.d25b7920.js.map"
+    "main.60d3e26a.js.map": "/myportfolio/static/js/main.60d3e26a.js.map"
   },
   "entrypoints": [
     "static/css/main.df068b96.css",
-    "static/js/main.d25b7920.js"
+    "static/js/main.60d3e26a.js"
   ]
 }
