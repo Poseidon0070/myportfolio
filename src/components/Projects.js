@@ -2,7 +2,7 @@ import React from 'react'
 import { useMediaQuery } from '@mui/material';
 import ProjectContainer from './ProjectContainer';
 import reactTube from '../assets/images/projects/ReactTube.png'
-import foodApp from '../assets/images/projects/FoodApp.png'
+import algosketch from '../assets/images/projects/algoSketch.png'
 import expenceTracker from '../assets/images/projects/ExpenseTracker.png'
 import shooterGame from '../assets/images/projects/2DshooterGame.png'
 import taskManagementApp from '../assets/images/projects/TaskManagementApp.png'
@@ -31,8 +31,16 @@ function Projects() {
                         <ProjectContainer
                             img={mernbot}
                             link={"https://master--mern-bot.netlify.app/"}>
-                            <h4>Phind Clone</h4>
+                            <h4>MERN-GPT</h4>
                             <p>Ai assistant application similar to chat-gpt integerated with image generator. Front-end : React, Backend : Node, Express and MongoDB, Auth : JWT and cookie sessions   .
+                            </p>
+                        </ProjectContainer>
+                        <ProjectContainer 
+                        img={algosketch}
+                        link={"https://algosketch.netlify.app"}>
+                            <h4>AlgoSketch</h4>
+                            <p>AlgoSketch is algothm visualizer application built using Nextjs. Explore working of sorting algos
+                             including Merge, Quick, Selection, Insertion sort, Path traversal algos DFS, BFS and dijstra and explore Seive of Erasthosthenes.
                             </p>
                         </ProjectContainer>
                         <ProjectContainer
@@ -40,17 +48,8 @@ function Projects() {
                             right={true}
                             link={"https://react-tube-0070.netlify.app/"}>
                             <h4>Video player application - ReactTube</h4>
-                            <p>Developed a fully responsive YouTube clone website using React and Material-UI
+                            <p>Developed a fully responsive YouTube clone Video player application using React and Material-UI
                                 Integrated the RAPIDAPI to fetch and display dynamic content, including video details, channel information, and search results.
-                            </p>
-                        </ProjectContainer>
-                        <ProjectContainer 
-                        img={foodApp}
-                        link={"https://food-order-app-81bdd.firebaseapp.com"}>
-                            <h4>Food ordering application - ReactMeal</h4>
-                            <p>A food ordering app created using React JS and Bootstrap.
-                                The webpage comprises different components, each designed to serve a specific purpose.
-                                Used Firestore as the backend to store food data and order delivery details.
                             </p>
                         </ProjectContainer>
                         <ProjectContainer 
