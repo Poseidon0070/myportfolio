@@ -20,9 +20,10 @@ function Projects() {
                 <div className="container">
 
                     <div className="row pb-4" data-aos="fade-up">
-                        <div className="col-lg-8">
-                            <h1 className="display-4 fw-bold mb-5 ms-3" data-aos="fade-down"><span className="text-brand">
-                                My Projects</span></h1>
+                        <div className="col-12">
+                            <h1 className="display-4 fw-bold mb-4 mb-md-5 text-center text-lg-start" data-aos="fade-down">
+                                <span className="text-brand">My Projects</span>
+                            </h1>
                         </div>
                     </div>
 
@@ -35,12 +36,12 @@ function Projects() {
                             <p>Ai assistant application similar to chat-gpt integerated with image generator. Front-end : React, Backend : Node, Express and MongoDB, Auth : JWT and cookie sessions   .
                             </p>
                         </ProjectContainer>
-                        <ProjectContainer 
-                        img={algosketch}
-                        link={"https://algosketch.netlify.app"}>
+                        <ProjectContainer
+                            img={algosketch}
+                            link={"https://algosketch.netlify.app"}>
                             <h4>AlgoSketch</h4>
                             <p>AlgoSketch is algothm visualizer application built using Nextjs. Explore working of sorting algos
-                             including Merge, Quick, Selection, Insertion sort, Path traversal algos DFS, BFS and dijstra and explore Seive of Erasthosthenes.
+                                including Merge, Quick, Selection, Insertion sort, Path traversal algos DFS, BFS and dijstra and explore Seive of Erasthosthenes.
                             </p>
                         </ProjectContainer>
                         <ProjectContainer
@@ -52,33 +53,33 @@ function Projects() {
                                 Integrated the RAPIDAPI to fetch and display dynamic content, including video details, channel information, and search results.
                             </p>
                         </ProjectContainer>
-                        <ProjectContainer 
-                        img={expenceTracker} 
-                        right={true}
-                        link={"https://expense-tracker-baa45.firebaseapp.com"}>
+                        <ProjectContainer
+                            img={expenceTracker}
+                            right={true}
+                            link={"https://expense-tracker-baa45.firebaseapp.com"}>
                             <h4>Expense tracker application</h4>
                             <p>
                                 An efficient and user-friendly expense tracker app , which embodies core concepts of ReactJS, including props and state management.
                                 Integrates Bootstrap for a polished and responsive user interface.
                             </p>
                         </ProjectContainer>
-                        <ProjectContainer 
-                        img={shooterGame} 
-                        link={`https://poseidon0070.github.io/2d-Shooter-Game${suf}`}>
+                        <ProjectContainer
+                            img={shooterGame}
+                            link={`https://poseidon0070.github.io/2d-Shooter-Game${suf}`}>
                             <h4>2D Shooter Game</h4>
                             <p>
                                 An efficient and user-friendly expense tracker app , which embodies core concepts of ReactJS, including props and state management.
                                 Integrates Bootstrap for a polished and responsive user interface.
                             </p>
                         </ProjectContainer>
-                        <ProjectContainer 
-                        img={taskManagementApp} 
-                        right={true}
-                        link={`https://65b7d4c6aa96151eb7175335--aesthetic-buttercream-603993.netlify.app/`}>
+                        <ProjectContainer
+                            img={taskManagementApp}
+                            right={true}
+                            link={`https://65b7d4c6aa96151eb7175335--aesthetic-buttercream-603993.netlify.app/`}>
                             <h4>Task Management App</h4>
                             <p>
-                            Robust Task Management System using React, Bootstrap, and Express, with MongoDB as the backend database.
-                            Leveraging the power of React Grid DND, the system empowers users to seamlessly add, delete, reorder, and mark tasks as complete or incomplete.
+                                Robust Task Management System using React, Bootstrap, and Express, with MongoDB as the backend database.
+                                Leveraging the power of React Grid DND, the system empowers users to seamlessly add, delete, reorder, and mark tasks as complete or incomplete.
                             </p>
                         </ProjectContainer>
 

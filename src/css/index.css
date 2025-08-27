@@ -7,7 +7,7 @@
     --color-base2: #022a30;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
-    --sidbar-width: 400px;
+    --sidebar-width: 400px;
     --font-base: "Bai Jamjuree";
 }
 
@@ -28,8 +28,9 @@ a {
     transition: all 0.4s ease;
 }
 
+/* Desktop sidebar shift - only for large screens */
 .shift{
-    margin-left: 400px;
+    margin-left: var(--sidebar-width);
 }
 
 .skill-md{
@@ -97,18 +98,85 @@ a {
     border-bottom: 2px solid rgba(255,255,255, 0.1);
 }
 
-@media (min-width: 992px) {
+/* Mobile First Approach - Base styles for mobile */
+.navbar {
+    background-color: var(--color-base);
+    padding: 1rem;
+}
+
+/* Remove shift class on mobile and small tablets */
+@media (max-width: 991.98px) {
+    .shift {
+        margin-left: 0 !important;
+    }
+    
+    .full-height {
+        min-height: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    /* Mobile navbar adjustments */
     .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1030;
+        background-color: var(--color-base) !important;
+    }
+    
+    /* Add top padding to body content to account for fixed navbar */
+    body {
+        padding-top: 80px;
+    }
+    
+    #profile_img {
+        height: 150px;
+        width: 150px;
+        border: 3px solid var(--color-brand);
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    #profile_img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* Desktop styles - Large screens */
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+    }
+    
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
         min-height: 100vh;
-        width: var(--sidbar-width);
+        width: var(--sidebar-width);
         background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../assets/images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
+        z-index: 1030;
     }
     
     /* CONTENT WRAPPER */
     #content-wrapper {
-        padding-left: var(--sidbar-width);
+        padding-left: var(--sidebar-width);
+    }
+    
+    .full-height {
+        min-height: 100vh;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 }
 
@@ -277,15 +345,275 @@ body{
     overflow-x: hidden;
 }
 
+/* Mobile Typography Improvements */
+@media (max-width: 767.98px) {
+    .display-4 {
+        font-size: 2rem !important;
+        line-height: 1.2;
+    }
+    
+    h1 {
+        font-size: 1.75rem !important;
+    }
+    
+    h4 {
+        font-size: 1.25rem !important;
+    }
+    
+    .lead {
+        font-size: 1rem !important;
+    }
+    
+    /* Mobile button improvements */
+    .btn-lg {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    /* Mobile skills adjustments */
+    .skill-sm {
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        padding: 8px;
+    }
+    
+    .skill-container {
+        justify-content: center;
+        padding: 0 1rem;
+    }
+    
+    /* Mobile project cards */
+    .card-custom-image img {
+        height: 250px !important;
+        object-fit: cover;
+    }
+    
+    /* Mobile contact form */
+    .form-control {
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+    
+    /* Mobile social icons */
+    .social-icons a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        margin: 0 0.25rem;
+    }
+    
+    /* Mobile spacing adjustments */
+    .px-lg-5 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 575.98px) {
+    .display-4 {
+        font-size: 1.75rem !important;
+    }
+    
+    h1 {
+        font-size: 1.5rem !important;
+    }
+    
+    .skill-sm {
+        height: 50px;
+        width: 50px;
+        margin: 8px;
+        padding: 6px;
+    }
+    
+    .card-custom-image img {
+        height: 200px !important;
+    }
+    
+    #profile_img {
+        height: 120px;
+        width: 120px;
+    }
+    
+    .btn-brand {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    /* Stack resume button and phone link vertically */
+    .d-flex.align-items-center {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+    
+    .link-custom {
+        margin-top: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* Additional Mobile Optimizations */
+@media (max-width: 767.98px) {
+    /* Improve navbar toggle button */
+    .navbar-toggler {
+        border: none;
+        padding: 0.25rem 0.5rem;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    
+    /* Mobile menu improvements */
+    .navbar-collapse {
+        background-color: var(--color-base);
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        text-align: center;
+    }
+    
+    .navbar-nav .nav-link:last-child {
+        border-bottom: none;
+    }
+    
+    /* Improve card spacing on mobile */
+    .bg-base {
+        margin-bottom: 1rem;
+    }
+    
+    /* Better text wrapping */
+    h4 {
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+    
+    /* Improve service cards on mobile */
+    .service {
+        text-align: center;
+    }
+    
+    .iconbox {
+        margin: 0 auto 1rem;
+    }
+    
+    /* Mobile-specific animations */
+    [data-aos] {
+        transition-duration: 0.4s;
+    }
+}
+
+/* Landscape mobile improvements */
+@media (max-width: 767.98px) and (orientation: landscape) {
+    .full-height {
+        min-height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    #profile_img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+/* High DPI screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    img {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}
+
+/* Scrollbar styles */
 ::-webkit-scrollbar{
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
 }
 ::-webkit-scrollbar-track{
-    background-color: #e0f780;
+    background-color: var(--color-base);
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: brown;
+    background-color: var(--color-brand);
     border-radius: 10px;
 }
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--color-brand2);
+}
+
+/* Mobile-specific styles for offcanvas menu */
+@media (max-width: 991.98px) {
+    .offcanvas.text-bg-dark {
+      background: linear-gradient(rgba(3, 63, 71, 0.95), rgba(3, 63, 71, 0.95)), url(../assets/images/sidebar-img.jpg);
+      background-size: cover;
+      background-position: center;
+      border-left: 2px solid var(--color-brand);
+      width: 80% !important; /* Slightly narrower for better usability */
+      max-width: 300px;
+    }
+  
+    .offcanvas-header {
+      padding: 1.5rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  
+    .offcanvas-title {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  
+    .btn-close-custom {
+      background-size: 1.2rem;
+      opacity: 1;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      width: 2rem;
+      height: 2rem;
+    }
+  
+    .btn-close-custom:hover {
+      transform: scale(1.2);
+      background-color: var(--color-brand);
+    }
+  
+    .offcanvas-body {
+      padding: 1.5rem;
+    }
+  
+    .offcanvas .navbar-nav .nav-link {
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.3s ease;
+      color: var(--color-body);
+    }
+  
+    .offcanvas .navbar-nav .nav-link:hover {
+      color: var(--color-brand2);
+      transform: translateX(10px);
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+  
+    .offcanvas .navbar-nav .nav-link:last-child {
+      border-bottom: none;
+    }
+  
+    /* Ensure smooth offcanvas animation */
+    .offcanvas.show {
+      transition: transform 0.4s ease-in-out;
+    }
+  }

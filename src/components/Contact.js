@@ -9,19 +9,19 @@ function Contact() {
 
     const formRef = useRef(null)
 
-    let submitHandler = async(e) => {
+    let submitHandler = async (e) => {
         e.preventDefault()
         setLoading(true)
 
-        let sendMail = async() => {
+        let sendMail = async () => {
 
-            emailjs.sendForm('service_mvp4f8r','template_ycbtkds',formRef.current,'eAo3xjd0asJHv6aGv')
-            .then((result) => {
-                console.log(result)
-            })
-            .catch(err => {
-                console.log(err)
-            })
+            emailjs.sendForm('service_mvp4f8r', 'template_ycbtkds', formRef.current, 'eAo3xjd0asJHv6aGv')
+                .then((result) => {
+                    console.log(result)
+                })
+                .catch(err => {
+                    console.log(err)
+                })
 
         }
 
@@ -40,28 +40,62 @@ function Contact() {
                     <div className="container">
 
                         <div className="row justify-content-center text-center">
-                            <div className="col-lg-8 pb-4" data-aos="fade-left">
+                            <div className="col-lg-8 col-12 pb-4" data-aos="fade-left">
                                 <h6 className="text-brand">CONTACT</h6>
-                                <h1>In case of any query, feel free to contact me
-                                </h1>
+                                <h1 className="display-4 fw-bold mb-4">In case of any query, feel free to contact me</h1>
                             </div>
 
-                            <div className="col-lg-8" data-aos="fade-right" data-aos-delay="100">
-                                <form action="#" ref={formRef} className="row g-lg-3 gy-3" onSubmit={submitHandler}>
-                                    <div className="form-group col-md-6">
-                                        <input name="name" type="text" className="form-control" placeholder="Enter your name" />
+                            <div className="col-lg-8 col-md-10 col-12" data-aos="fade-right" data-aos-delay="100">
+                                <form action="#" ref={formRef} className="row g-3" onSubmit={submitHandler}>
+                                    <div className="form-group col-md-6 col-12">
+                                        <input
+                                            name="name"
+                                            type="text"
+                                            className="form-control"
+                                            placeholder="Enter your name"
+                                            required
+                                            aria-label="Your name"
+                                        />
                                     </div>
-                                    <div className="form-group col-md-6">
-                                        <input name="email" type="email" className="form-control" placeholder="Enter your email" />
+                                    <div className="form-group col-md-6 col-12">
+                                        <input
+                                            name="email"
+                                            type="email"
+                                            className="form-control"
+                                            placeholder="Enter your email"
+                                            required
+                                            aria-label="Your email address"
+                                        />
                                     </div>
                                     <div className="form-group col-12">
-                                        <input name="subject" type="text" className="form-control" placeholder="Enter subject" />
+                                        <input
+                                            name="subject"
+                                            type="text"
+                                            className="form-control"
+                                            placeholder="Enter subject"
+                                            required
+                                            aria-label="Subject"
+                                        />
                                     </div>
                                     <div className="form-group col-12">
-                                        <textarea name="description" rows="4" className="form-control" placeholder="Enter your message"></textarea>
+                                        <textarea
+                                            name="description"
+                                            rows="4"
+                                            className="form-control"
+                                            placeholder="Enter your message"
+                                            required
+                                            aria-label="Your message"
+                                        ></textarea>
                                     </div>
                                     <div className="form-group col-12 d-grid">
-                                        <button type="submit" className="btn btn-brand">Contact me</button>
+                                        <button
+                                            type="submit"
+                                            className="btn btn-brand btn-lg"
+                                            disabled={isLoading}
+                                            aria-label="Send message"
+                                        >
+                                            {isLoading ? 'Sending...' : 'Send Message'}
+                                        </button>
                                     </div>
                                 </form>
                             </div>
