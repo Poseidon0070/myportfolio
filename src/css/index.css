@@ -617,3 +617,12 @@ body{
       transition: transform 0.4s ease-in-out;
     }
   }
+
+  body.offcanvas-backdrop,
+  body.offcanvas-open {
+    padding-right: 0 !important;
+    overflow-y: auto !important; /* allow scrolling if needed */
+  }
+  .offcanvas-backdrop {
+    background-color: rgba(0,0,0,0.5); /* semi-transparent overlay */
+  }
