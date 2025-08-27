@@ -1,8 +1,7 @@
 import React from 'react'
 import { useMediaQuery } from '@mui/material';
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { PencilSquare } from 'react-bootstrap-icons'
-import { PcDisplay } from 'react-bootstrap-icons'
+import { PencilSquare, PcDisplay } from 'react-bootstrap-icons';
 
 function Services() {
     const isScreenMd = useMediaQuery((theme) => theme.breakpoints.up('md'))
@@ -14,37 +13,45 @@ function Services() {
                     <div className="row pb-4" data-aos="fade-down">
                         <div className="col-lg-8">
                             <h6 className="text-brand">SERVICES</h6>
-                            <h1>Services That I Provide</h1>
+                            <h1>What I Offer</h1>
                         </div>
                     </div>
 
                     <div className="row gy-4">
 
+                        {/* Frontend */}
                         <div className="col-md-6" data-aos="fade-right" data-aos-delay="200">
                             <div className="service p-4 bg-base rounded-4 shadow-effect">
                                 <div className="iconbox rounded-4">
                                     <PencilSquare />
                                 </div>
-                                <h5 className="mt-4 mb-2 text-decoration-underline">Frontend </h5>
+                                <h5 className="mt-4 mb-2 text-decoration-underline">Frontend Development</h5>
                                 <p>
-                                    As a web developer with a passion for crafting immersive digital experiences, I possess a
-                                    diverse skill set encompassing HTML, CSS, JavaScript with proficiency in frameworks and libraries such as Bootstrap, React, and Material UI
-                                    Through my expertise in front-end development, I bring ideas by combining creativity and technical proficiency to design visually appealing and user-friendly websites and web applications.
+                                    I specialize in building scalable, responsive, and visually engaging user interfaces 
+                                    using modern frameworks such as <strong>React.js</strong>, <strong>Next.js</strong>, 
+                                    and UI libraries like <strong>Material UI</strong>, <strong>Mantine</strong>, 
+                                    and <strong>TailwindCSS</strong>.  
+                                    From SaaS platforms to interactive visualizers, I focus on delivering seamless 
+                                    user experiences, ensuring optimized performance, accessibility, and maintainability.
                                 </p>
                             </div>
                         </div>
 
+                        {/* Backend */}
                         <div className="col-md-6" data-aos="fade-left" data-aos-delay="600">
                             <div className="service p-4 bg-base rounded-4 shadow-effect">
                                 <div className="iconbox rounded-4">
                                     <PcDisplay />
                                 </div>
-                                <h5 className="mt-4 mb-2 text-decoration-underline">Backend</h5>
+                                <h5 className="mt-4 mb-2 text-decoration-underline">Backend Development</h5>
                                 <p>
-                                    I possess a strong foundation in Node.js Express.js and the EJS template engine,
-                                    powerful technologies that allow me to build robust and scalable server-side applications.
-                                    With proficiency in these frameworks, I create efficient APIs and handle data flow, ensuring seamless communication between the front-end and back-end components of web applications.
-                                    My knowledge also extends to working with databases, including MongoDB and SQL.
+                                    I design and implement robust backend systems using <strong>Node.js</strong>, 
+                                    <strong>Express.js</strong>, <strong>NestJS</strong>, and <strong>FastAPI</strong>.  
+                                    My expertise includes creating secure APIs, managing authentication, and 
+                                    architecting efficient serverless solutions with <strong>AWS</strong>.  
+                                    I have hands-on experience with both SQL and NoSQL databases, including 
+                                    <strong>MongoDB</strong>, <strong>MySQL</strong>, and <strong>Redis</strong>, ensuring 
+                                    scalable and high-performance applications.
                                 </p>
                             </div>
                         </div>

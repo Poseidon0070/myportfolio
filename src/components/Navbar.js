@@ -1,5 +1,5 @@
 import '../css/index.css'
-import profileImg from '../assets/images/profile-pic1.png'
+import profileImg from '../assets/images/profile-pic.png'
 
 let Navbar = () => {
     return (
