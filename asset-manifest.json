@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.df068b96.css",
-    "main.js": "/myportfolio/static/js/main.60d3e26a.js",
+    "main.css": "/myportfolio/static/css/main.714deb8c.css",
+    "main.js": "/myportfolio/static/js/main.c8d173f4.js",
     "static/media/Mernbot.png": "/myportfolio/static/media/Mernbot.6e5635648302a2a117ba.png",
     "static/media/ReactTube.png": "/myportfolio/static/media/ReactTube.7a9ccb1024a4eb0b7fc9.png",
     "static/media/algoSketch.png": "/myportfolio/static/media/algoSketch.a611334999abe743d2f5.png",
+    "static/media/profile-pic.png": "/myportfolio/static/media/profile-pic.540dbd209793d0483731.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/myportfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/profile-pic1.png": "/myportfolio/static/media/profile-pic1.c2cb8bfd366e26833315.png",
     "static/media/2DshooterGame.png": "/myportfolio/static/media/2DshooterGame.ee31183e7bcad77ec158.png",
+    "static/media/Shikhar_Resume_updated.pdf": "/myportfolio/static/media/Shikhar_Resume_updated.2a7374c81f294eeaf455.pdf",
     "static/media/bootstrap-icons.woff?": "/myportfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/Shikhar_Resume(m).pdf": "/myportfolio/static/media/Shikhar_Resume(m).d0f6e0e84fc77e5ebd0a.pdf",
-    "static/media/Shikhar_Resume.pdf": "/myportfolio/static/media/Shikhar_Resume.33306abb80df56a7c5bc.pdf",
     "static/media/sidebar-img.jpg": "/myportfolio/static/media/sidebar-img.8e3d6c87006f9d37ffe7.jpg",
     "static/media/fontawesome-webfont.eot": "/myportfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/myportfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -36,11 +35,11 @@
     "static/media/8express.svg": "/myportfolio/static/media/8express.f44799058ef37b8d72355b15425f9490.svg",
     "static/media/6materialui.svg": "/myportfolio/static/media/6materialui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
     "static/media/3javascript.svg": "/myportfolio/static/media/3javascript.4e191ced82f7d9fb6e572e1600298643.svg",
-    "main.df068b96.css.map": "/myportfolio/static/css/main.df068b96.css.map",
-    "main.60d3e26a.js.map": "/myportfolio/static/js/main.60d3e26a.js.map"
+    "main.714deb8c.css.map": "/myportfolio/static/css/main.714deb8c.css.map",
+    "main.c8d173f4.js.map": "/myportfolio/static/js/main.c8d173f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.df068b96.css",
-    "static/js/main.60d3e26a.js"
+    "static/css/main.714deb8c.css",
+    "static/js/main.c8d173f4.js"
   ]
 }
