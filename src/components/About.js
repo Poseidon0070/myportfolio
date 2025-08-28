@@ -17,7 +17,7 @@ function About() {
                     </div>
 
                     <div className="row gy-4 gy-lg-5">
-                        <div className="col-lg-6 col-12">
+                        <div className="col-lg-6 col-12 d-flex flex-column justify-content-center">
 
                             <h3 className="mb-4 text-center text-lg-start" data-aos="fade-right" data-aos-delay="300">Education</h3>
                             <div className="row gy-4">
@@ -27,7 +27,7 @@ function About() {
                                         <h4>International Institute of Information Technology, Naya Raipur
                                         </h4>
                                         <div className='d-flex justify-content-between flex-column flex-sm-row'>
-                                            <p className="text-brand mb-2">B.Tech Computer Science</p>
+                                            <p className="text-brand mb-2">B.Tech CSE</p>
                                             <p className="text-brand mb-2">2023 - Present</p>
                                         </div>
                                         <p className="mb-0">Currently pursuing my B.tech in Computer Science at IIIT, Naya Raipur with a cumulative CGPA of <b>8.26.</b></p>
@@ -71,8 +71,8 @@ function About() {
                                     <div className="bg-base p-4 rounded-4 shadow-effect">
                                         <h4>Problem Setter Intern</h4>
                                         <div className='d-flex justify-content-between flex-column flex-sm-row'>
-                                            <p className='text-brand mb-1'>Interview Mocha</p>
-                                            <p className="text-brand mb-2">May 2023 - July 2023</p>
+                                            <p className='text-brand mb-1'>Heizen (formerly OpenGig)</p>
+                                            <p className="text-brand mb-2">Feb 2025 - Present</p>
                                         </div>
                                         <p className="mb-0">• Led end-to-end delivery of diverse client projects, spanning finance data pipeline development to building AI agents from scratch,
                                             ensuring alignment with complex business requirements.<br />
@@ -86,8 +86,8 @@ function About() {
                                     <div className="bg-base p-4 rounded-4 shadow-effect">
                                         <h4>Frontend Developer Intern</h4>
                                         <div className='d-flex justify-content-between flex-column flex-sm-row'>
-                                            <p className='text-brand mb-1'>Postman</p>
-                                            <p className="text-brand mb-2">Feb 2024</p>
+                                            <p className='text-brand mb-1'>VideoDubber.ai</p>
+                                            <p className="text-brand mb-2">Oct 2024 - Feb 2025</p>
                                         </div>
                                         <p className="mb-0"> • Contributed to the development of a media editing SAAS application, enabling seamless manipulation of various media assets,
                                             including audio, video, and images, using Next.js and Mantine UI.<br />
