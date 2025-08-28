@@ -69,7 +69,7 @@ function About() {
 
                                 <div className="col-12" data-aos="fade-left" data-aos-delay="500">
                                     <div className="bg-base p-4 rounded-4 shadow-effect">
-                                        <h4>Problem Setter Intern</h4>
+                                        <h4>Software Engineer</h4>
                                         <div className='d-flex justify-content-between flex-column flex-sm-row'>
                                             <p className='text-brand mb-1'>Heizen (formerly OpenGig)</p>
                                             <p className="text-brand mb-2">Feb 2025 - Present</p>
